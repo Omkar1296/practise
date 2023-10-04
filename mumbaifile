@@ -1,0 +1,15 @@
+class Subtraction
+{
+public static void main (String[]args)
+{
+int a=15;
+int b=8;
+s=subtrction(a,b);
+System.out.println(s);
+}
+public int subtraction(x,y)
+{
+c=x-y;
+return c;
+}
+}
