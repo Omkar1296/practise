@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+class Addition
+{
+public static void main (String[]args)
+{
+System.out.println("Additon of two numbers");
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter first value");
+int first_value=sc.nextInt();
+System.out.println("Enter second value");
+int second_value=sc.nextInt();
+
+int addition=first_value+second_value;
+
+System.out.println("Addition of Two Value is: "+ addition);
+}
+}
